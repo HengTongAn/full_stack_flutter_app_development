@@ -1,0 +1,18 @@
+List<String> images = [
+  "lib/assets/images/category_images/category1_img1.png",
+  "lib/assets/images/category_images/category1_img2.png",
+  "lib/assets/images/category_images/category1_img3.png",
+  "lib/assets/images/category_images/category1_img4.png",
+  "lib/assets/images/category_images/category2_img1.png",
+  "lib/assets/images/category_images/category2_img2.png",
+  "lib/assets/images/category_images/category2_img3.png",
+  "lib/assets/images/category_images/category2_img4.png",
+  "lib/assets/images/category_images/category3_img1.png",
+  "lib/assets/images/category_images/category3_img2.png",
+  "lib/assets/images/category_images/category3_img3.png",
+  "lib/assets/images/category_images/category3_img4.png",
+  "lib/assets/images/category_images/category4_img1.png",
+  "lib/assets/images/category_images/category4_img2.png",
+  "lib/assets/images/category_images/category4_img3.png",
+  "lib/assets/images/category_images/category4_img4.png",
+];

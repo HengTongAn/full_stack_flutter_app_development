@@ -1,0 +1,17 @@
+final List<String> profileImagesPath = [
+  "lib/assets/images/image 1472.png",
+  "lib/assets/images/D0C1E42F-2424-4AC5-A50B-7F31438A87F4.png",
+  "lib/assets/images/93D04431-85B5-4598-9083-126E95618766.png",
+  "lib/assets/images/733AB344-5315-4C26-B1DC-1223523F4A5A.png",
+  "lib/assets/images/1D5F0A96-4CAA-4C31-970D-90993D43F489.png",
+  "lib/assets/images/02CA0361-200F-4CA0-AFF2-D468EC2793C0.png",
+  "lib/assets/images/artist-2 1.png",
+  "lib/assets/images/mnus_sava.jpg",
+  "lib/assets/images/flash_sales_images/1.png",
+  "lib/assets/images/flash_sales_images/2.png",
+  "lib/assets/images/flash_sales_images/3.png",
+  "lib/assets/images/flash_sales_images/4.png",
+  "lib/assets/images/flash_sales_images/5.png",
+  "lib/assets/images/flash_sales_images/6.png",
+  "lib/assets/images/flash_sales_images/7.png",
+];

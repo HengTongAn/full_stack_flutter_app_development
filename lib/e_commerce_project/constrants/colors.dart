@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+
+const Color blue  = Color(0xff004CFF);
+const Color softBlue = Color(0xffC7D6FB);
+const Color shadeBlue = Color(0xff004CFF);
+const Color veryShadeGrey = Color(0xffececec);
+const Color shadeGrey = Color(0xff707070);
+const Color shadeBlack = Color(0xff202020);
+const Color white = Color(0xffFFFFFF);
+const Color black = Color(0xff000000);
+const Color black1 = Color(0xff202020);
+const Color shadeWhite = Color(0xffF3F3F3);
+const Color shadeBlueSky = Color(0xffE5EBFC);
+const Color redAccent = Color(0xffEC4E4E);
+const Color pinkAccent = Color(0xffFF5790);
+const Color verySoftPink = Color(0xffFFEBEB);
+const Color softPastelRed = Color(0xffF1AEAE);
+const Color softPasteBlue = Color(0xffE5EBFC);
+const Color softPastePink = Color(0xffFFEBEB);
+const Color softPastePink2 = Color(0xffF8CECE);
+const Color verySoftGrey = Color(0xffececec);
+const Color shadeGreen = Color(0xff08C514);
+const Color lightGrey = Color(0xffD9D9D9);
+const Color deepPink = Color(0xffF81140);
+const Color offWhite = Color(0xffF8F8F8);
+const Color silver = Color(0xffC7C7C7);
