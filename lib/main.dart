@@ -1,6 +1,11 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:full_stack_flutter_app_development/API/api_screen.dart';
+import 'package:full_stack_flutter_app_development/API/api_screen_pagination.dart';
+import 'package:full_stack_flutter_app_development/API/practice/screens/products_screen.dart';
 import 'package:full_stack_flutter_app_development/crud_firebase/get_user_data_screen.dart';
+import 'package:full_stack_flutter_app_development/crud_firebase/practice/screens/student_data_screen.dart';
+import 'package:full_stack_flutter_app_development/e_commerce_project/constrants/colors.dart';
 import 'package:full_stack_flutter_app_development/firebase_options.dart';
 // import 'package:full_stack_flutter_app_development/practice/login_screen_practice.dart';
 // import 'package:full_stack_flutter_app_development/practice/navigator_pages.dart';
@@ -23,9 +28,7 @@ import 'package:full_stack_flutter_app_development/firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const Apps());
 }
 
@@ -36,8 +39,10 @@ class Apps extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GetUserDataScreen(),
-      // ApiScreenPagination(),
+      home: ProductsScreen(),
+      // MainApiScreen(),
+      // StudentDataScreen(),
+      // GetUserDataScreen(),
     );
   }
 }

@@ -6,7 +6,7 @@ class FetchingProducts {
   // https://api.escuelajs.co/api/v1/products?offset=1&limit=100
   Future<List<ProductsModel>> fetchProductsApi(int offset) async {
     // offset = pagination
-    int limit = 10;
+    int limit = 50;
     final url = Uri.parse("https://api.escuelajs.co/api/v1/products?offset=$offset&limit=$limit");
     final response = await http.get(url);
 

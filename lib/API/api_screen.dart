@@ -12,11 +12,12 @@ class MainApiScreen extends StatefulWidget {
 
 class _MainApiScreenState extends State<MainApiScreen> {
   late Future<dynamic> _productsFuture;
+  final FetchingProducts fetchingProducts = FetchingProducts();
 
   @override
   void initState() {
     super.initState();
-    // _productsFuture = FetchingProducts.fetchProductsApi(1);
+    _productsFuture = fetchingProducts.fetchProductsApi(1);
   }
 
   @override
